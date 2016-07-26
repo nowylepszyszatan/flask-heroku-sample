@@ -7,7 +7,10 @@ app = Flask(__name__)
 @app.route('/')
 def coTamSlychacZielonyLudku():
   return "Hello all"
-
+  
+@app.route('/aaa')
+def coTamSlychacZielonyLudku():
+  return "aaa"
 
 ################################################## its a well commneted line
 # and a well commented code
